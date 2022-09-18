@@ -143,23 +143,25 @@ header {
 .header_title h2{
     color: #222;
 }
-.search_wrapper{
-    border: 1px solid #ccc;
-    height: 45px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 30px;
-    overflow-x: hidden;
+.search_wrapper {
+	border: 1px solid #ccc;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-radius: 30px;
+	overflow-x: hidden;
+	width: 50%;
 }
 .search_wrapper span{
     display: inline-block;
     padding: 0 1rem;
 }
-.search_wrapper input{
-    outline: none;
-    border: none;
-    background: transparent;
+.search_wrapper input {
+	outline: none;
+	border: none;
+	background: transparent;
+	width: 100%;
 }
 .user_wrapper{
     display: flex;

@@ -114,6 +114,9 @@
     .main .cards {
         grid-template-columns: repeat(3, 1fr);
     }
+    .search_wrapper {
+        width: 40%;
+    }
 }
 @media all and (max-width:667px){
     .rm {
